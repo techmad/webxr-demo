@@ -24,7 +24,7 @@
         <div id="unity-webgl-logo"></div>
         <button id="entervr" value="Enter VR" disabled>VR</button>
         <button id="enterar" value="Enter AR" disabled>AR</button>
-        <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export 5</a></div>
+        <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div>
         <div id="unity-build-title">Test WEB XR dec21</div>
       </div>
     </div>
@@ -32,13 +32,13 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/UNITY EXPORT.loader.js";
       var config = {
-        dataUrl: buildUrl + "/UNITY EXPORT.data.gz",
-        frameworkUrl: buildUrl + "/UNITY EXPORT.framework.js.gz",
-        codeUrl: buildUrl + "/UNITY EXPORT.wasm.gz",
+        dataUrl: buildUrl + "/UNITY EXPORT.data",
+        frameworkUrl: buildUrl + "/UNITY EXPORT.framework.js",
+        codeUrl: buildUrl + "/UNITY EXPORT.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Test WEB XR dec21",
-        productVersion: "0.1",
+        productVersion: "0.2",
       };
 
       var container = document.querySelector("#unity-container");

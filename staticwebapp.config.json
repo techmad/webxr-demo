@@ -1,0 +1,20 @@
+{
+    "responseOverrides": {
+        "400": {
+          "rewrite": "/error.html"
+        },
+        "401": {
+          "redirect": "/error.html"
+        },
+        "403": {
+          "rewrite": "/error.html"
+        },
+        "404": {
+          "rewrite": "/error.html"
+        }
+    },
+    "mimeTypes": {
+        ".json": "text/json",
+        ".gz": "application/gzip"
+        }
+}
